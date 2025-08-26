@@ -13,7 +13,7 @@ export async function createDefect(defect: Omit<Defect, 'id'>): Promise<Defect> 
 }
 
 export async function updateDefect(defect: Defect): Promise<Defect> {
-    const response = await api.put(`/defect}`, defect); //posibil sa trb /id
+    const response = await api.put(`/defect`, defect); //posibil sa trb /id
     return response.data;
 }
 

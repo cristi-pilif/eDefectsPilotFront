@@ -50,7 +50,7 @@ export default function DefectCreatePage(){
 
                 <label>Due date:</label>
                 <input 
-                    type="text" 
+                    type="date" 
                     name="dueDate" 
                     value={formData.dueDate} 
                     onChange={handleChange}
